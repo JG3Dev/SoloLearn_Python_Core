@@ -1,0 +1,5 @@
+txt = input().split()
+length = [len(x) for x in txt]
+maximum = max(length)
+text_index = length.index(maximum)
+print(txt[text_index])
