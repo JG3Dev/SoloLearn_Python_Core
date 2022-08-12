@@ -1,0 +1,6 @@
+names = ["David", "John", "Annabelle", "Johnathan", "Veronica"]
+
+def func():
+    res=list(filter(lambda x: len(x) > 5, names))
+    print(res)
+func()
