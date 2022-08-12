@@ -1,0 +1,8 @@
+celsius = int(input())
+
+def conv(c):
+    fahrenheit= celsius * 9/5 + 32
+    return(fahrenheit)
+
+fahrenheit = conv(celsius)
+print(fahrenheit)
